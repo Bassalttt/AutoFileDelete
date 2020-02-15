@@ -3,3 +3,5 @@ There are three variables to set:
 1. Set the time by second or day(default).
 2. Set a time. When a folder exists longer than the time, it will be removed.
 3. Set a path that you wish this program to execute.
+
+WARNING: The result may be different between Windows, Mac, and Linux.

@@ -84,8 +84,6 @@ i=0;
 for path,file,cont in os.walk(thePath):
     i=i+1;
     if(file==[] and cont==[]):RemoveFile(path);
-    elif(file== 'Allen' or file=='Simon' or file=='Dylan' or
-         file=='DL' or file=='Frank' or file=='Paul'):continue;
     else:
         target=CombinePath(path,file,cont);
         for every in target:
